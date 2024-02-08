@@ -96,8 +96,6 @@ color: dimgray;
     align-items: center;
 }
 
-
-
 .user-name {
     padding-left: 20px;
 }
@@ -121,7 +119,6 @@ color: dimgray;
     color: #FFFFFF;
     font-weight: 700;
     font-style: normal;
-    /* padding-right: 10px; */
 }
 
 .side-nav .logo {
@@ -130,7 +127,6 @@ color: dimgray;
     color: #FFFFFF;
     font-weight: 700;
     font-style: normal;
-    /* padding-right: 10px; */
 }
 
 .menu-1, 
@@ -188,7 +184,6 @@ fill: white;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-template-rows: repeat(2, 1fr);
-    /* gap:15px; */
     margin-top: 10px;
     margin-left: 15px;
     margin-right: 10px;
@@ -198,15 +193,7 @@ fill: white;
     grid-row: 2 / 3;
     grid-column: 2 / 3;
 
-    /* height: 30px; */
-    /* margin: 30px 0px 5px 10px; */
-    /* padding: 30px 0px 5px 10px; */
-    /* margin-left: 10px;
-    margin-top: 30px; */
-
-
     padding-left: 15px;
-    /* padding-top: 30px; */
 }
 
 .announce-header {
@@ -223,10 +210,7 @@ fill: white;
     height: 100%; 
     min-height: 150px;
     max-height: 180px;    
-    /* margin: 20px; */
     margin-right: 15px;
-    /* margin-bottom: 15px; */
-
     
     border-radius: 5px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
@@ -256,7 +240,6 @@ fill: white;
     padding: 20px 10px 20px 0px;
   }
 
-
 .right-side-nav {
      /* location within main-content grid */
      grid-row: 3 / 4;
@@ -276,26 +259,21 @@ fill: white;
 
 .announce-detail > img {
     width: 30px;
-    /* height: 30px; */
 }
 
 .announce-detail > p {
     font-size: 12px;
-    /* padding-bottom: 30px; */
 }
 
 .announce-detail > p:last-child {
     font-size: 12px;
-    /* padding-bottom: 0px; */
 }
 
 .announce-detail > hr {
     color: dimgrey;
     margin-top: 15px;
     margin-bottom: 15px;
-    /* padding-bottom: 30px; */
 }
-
 
 .trend {
     background-color: #FFFFFF;
@@ -362,10 +340,8 @@ fill: white;
 .buttons {
     display: flex;
     flex-direction: row;
-    /* flex-grow: 1; */
     justify-content: flex-end;
     align-items: center;
-    /* max-width: 350px; */
 }
     
 .button {
@@ -376,11 +352,7 @@ fill: white;
     margin: 0px 20px 0px 0px;
     text-align: center;
     text-decoration: none;
-    /* display: inline-block; */
     font-size: 14px;
     border-radius: 20px;
-
-    display: flex;
-    /* flex-grow: 1; */
   }
 
